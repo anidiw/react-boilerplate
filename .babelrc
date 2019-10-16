@@ -1,0 +1,5 @@
+{
+    //"presets": ["env", "react"], //if babel < 7.0
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": ["transform-class-properties"] //new JavaScript Proposal namely: Property Initializer syntax (look into app.js increment() function). This is usually preferred by React community for cleaner React components
+}
